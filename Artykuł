@@ -1,0 +1,46 @@
+  <!DOCTYPE html>
+    <html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="MariuszFemin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Krótki artykuł o tym, dlaczego warto uczyć się programowania.">
+
+        <title>Dlaczego warto uczyć sie programowania</title>
+    </head>
+    <body>
+     <center><h1>Programowanie w 2025 roku ?</h1></center>
+
+        <p><strong>Programowanie</strong> jest jedną z najbardziej popularnych umiejętności w aktualnym momencie na całym świecie, i co roku potrzeba więcej osób, które będą sie tym zajmowały.
+        Umiejętność kodowania pozwala na stworzenia dobrej kariery zawodowej
+                           <pre>
+def hello_world():
+    print("Hello, world!")
+</pre>
+
+    </p>
+           <center><blockquote>"<b>programy powinny być pisane tak, aby mogli je czytać ludzie, a wykonywac maszyny."</b></blockquote></center>
+
+        <hr>
+
+        <h2>Praca programisty na rok 2025/26.</h2>
+        <p><strong>Analitycy rynku pracy oszacowalni, że przez <mark>najbliższe</mark> kilka lat na stanowisko programisty zwiększy sie liczba osób do zatrudnienia
+            oraz dużo więcej miejsc pracy.</strong></p>
+
+        <hr>
+
+        <h3><em>Elastyczność pracy</em></h3>
+        <p>Programiści mają możliwośc pracy zdalnej co ułatwia pracownikom dużą elastyczność godzin pracy oraz przede wszystkim zaoszczędznie czasu który musieliby przeznaczyć na dojazdy do miejsca pracy.
+            Następną zaletą pracy zdalnej jest możliwość pozyskania pracy nie tylko w danym kraju w którym na codzień mieszakmy/żyjemy, tylko pracować z fimrami z innych państw, które moga dać nam dużo większe możliwości do rozwoju oraz większe zarobki (chociaż w niektórych  miejscach i tak są do siebie zbliżone)
+        </p>
+            <hr>
+            <h4>
+                <h3>Dla osób początkujących</h3>
+    <ul>
+        <li><a href="https://www.codecademy.com" target="_blank">Codecademy</a></li>
+        <li><a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a></li>
+    </ul>
+
+            </h4>
+    </body>
+    </html>
