@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="dokumenthtml">
+    <meta name="author" content="MariuszFemin">
+    <title>Strona MF</title>
+</head>
+<body>
+    <h1>Pierwsza strona MF</h1>
+    <p>Strona stworzona na zajęciach</p>
+</body>
+</html>
+
+<!--"DOCTYPE" - daje infomracje stronie, że jest używany HTML5 
+    -sekcja <head> ma role posiadania informacji o stronie internetowej, które nie są wyświetlane głównie na danej stronie i ma to wieksze znaczenie podczas wyszukiwania 
+    oraz podane są tam linki oraz tagi do plików CSS(to wszystko ma pomóc wyświetlaniu strony)
+    - metea tagi posiadają informacje o stronie np. kluczowe słowa,autor opis -->
