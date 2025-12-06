@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Moja Strona</title>
+</head>
+<body>
+
+<div id="page">
+
+<header>
+    <h1 class="logo">Moja Strona</h1>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">O nas</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="content">
+
+    <section class="main-content">
+
+        <article class="post">
+            <header>
+                <h2 class="post-title">Tytuł artykułu</h2>
+                <p class="post-meta">
+                    Autor: Jan Kowalski |
+                    <time datetime="2025-01-15">2025-01-15</time>
+                </p>
+            </header>
+
+            <section class="post-content">
+                <p>To jest pierwszy paragraf artykułu...</p>
+                <p>To jest drugi paragraf artykułu...</p>
+            </section>
+        </article>
+
+        <article class="post">
+            <header>
+                <h2 class="post-title">Drugi artykuł</h2>
+            </header>
+
+            <section class="post-content">
+                <p>Treść drugiego artykułu...</p>
+            </section>
+        </article>
+
+    </section>
+
+    <aside class="sidebar">
+        <section class="widget">
+            <h3 class="widget-title">Kategorie</h3>
+            <ul>
+                <li>Technologia</li>
+                <li>Nauka</li>
+                <li>Sport</li>
+            </ul>
+        </section>
+    </aside>
+
+</main>
+
+<footer class="bottom">
+    <p>© 2025 Moja Strona. Wszelkie prawa zastrzeżone.</p>
+</footer>
+
+</div>
+
+</body>
+</html>
+
+<!--W refaktoryzacji zamieniłem zwykłe <div> i <span> na semantyczne tagi HTML5.
+Zrobiłem to dlatego, że takie tagi lepiej opisują jaka część strony do czego służy.
+Na przykład nagłówek strony wrzuciłem do <header>,
+menu do <nav>, główną treść do <main>, a boczną kolumnę do <aside>.
+Artykuły umieściłem w <article>, bo każdy z nich jest osobnym wpisem,
+który można by pokazać jako niezależny tekst.
+W środku artykułów użyłem <h2> dla tytułów, <p> dla zwykłych akapitów i <time> z atrybutem datetime, żeby data była czytelna dla komputera,
+nie tylko dla człowieka.
+
+
+Takie zmiany pomagają, bo kod staje się bardziej uporządkowany.
+ Łatwiej się go czyta, a ktoś inny szybciej zrozumie, gdzie jest menu, gdzie treść, a gdzie stopka.
+Jest to też ważne dla wyszukiwarek, które dzięki semantycznym tagom lepiej wiedzą, co jest najważniejszą treścią strony.
+Może to poprawić pozycję strony w wynikach wyszukiwania.
+ Pomaga też osobom korzystającym z czytników ekranu bo te urządzenia potrafią przeskakiwać między sekcjami i artykułami,
+  jeśli są opisane odpowiednimi tagami.
+
+<div> nadal można używać, gdy element nie ma żadnego semantycznego znaczenia i jest potrzebny tylko do ułożenia strony albo do stylowania.
+Dzięki semantyce kod jest po prostu bardziej logiczny i czytelny.
